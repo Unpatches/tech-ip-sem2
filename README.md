@@ -131,10 +131,12 @@ sequenceDiagram
 ## Скриншоты
 ### Скрин/лог с request-id, подтверждающий прокидывание.
 
-<img width="1795" height="565" alt="image" src="https://github.com/user-attachments/assets/c4f2dfdc-aca1-489c-b1cb-574492ee860e" />
+<img width="1795" height="565" alt="image" src="https://github.com/user-attachments/assets/6c3769e6-9f4e-4b50-a304-b7dc4dcacef8" />
 
 
-<img width="1796" height="513" alt="image" src="https://github.com/user-attachments/assets/23db8837-c6b1-4010-9c75-62ced7f8a078" />
+
+<img width="1796" height="513" alt="image" src="https://github.com/user-attachments/assets/ee2358cd-af8d-4b6b-967b-7adf7a459b8c" />
+
 
 ### Получить токен
 
@@ -142,7 +144,8 @@ sequenceDiagram
 http://185.250.46.179:8081/v1/auth/login
 ```
 
-<img width="479" height="461" alt="image" src="https://github.com/user-attachments/assets/60881aac-9dfa-4d68-8dcb-b2212fd19967" />
+<img width="479" height="461" alt="image" src="https://github.com/user-attachments/assets/83e8c3e2-1445-45fe-92b3-fffeecab7b4f" />
+
 
 ### Проверка токена напрямую
 
@@ -150,7 +153,8 @@ http://185.250.46.179:8081/v1/auth/login
 http://185.250.46.179:8081/v1/auth/verify
 ```
 
-<img width="597" height="458" alt="image" src="https://github.com/user-attachments/assets/7f9939e4-980f-41c6-aeb7-c624bb15e4c5" />
+<img width="597" height="458" alt="image" src="https://github.com/user-attachments/assets/c8e5b8b0-bb26-4d80-88e4-7f66c3b2fc46" />
+
 
 ### Создать задачу через Tasks (с проверкой Auth)
 
@@ -158,7 +162,8 @@ http://185.250.46.179:8081/v1/auth/verify
 http://185.250.46.179:8082/v1/tasks
 ```
 
-<img width="568" height="517" alt="image" src="https://github.com/user-attachments/assets/a3b9844e-81e8-400c-aaa2-65dc9feee181" />
+<img width="568" height="517" alt="image" src="https://github.com/user-attachments/assets/3ccb74b7-e6a1-411a-b082-37f253d1ee94" />
+
 
 ### Попробовать без токена (должно быть 401)
 
@@ -166,4 +171,5 @@ http://185.250.46.179:8082/v1/tasks
 http://185.250.46.179:8082/v1/tasks
 ```
 
-<img width="536" height="455" alt="image" src="https://github.com/user-attachments/assets/bd55ad75-af30-4ac0-b412-51ddb6e47a78" />
+<img width="536" height="455" alt="image" src="https://github.com/user-attachments/assets/cd5f3661-b8ba-4327-b432-9c8095908631" />
+
