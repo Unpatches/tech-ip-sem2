@@ -141,7 +141,7 @@ sequenceDiagram
 ### Получить токен
 
 ```
-http://185.250.46.179:8081/v1/auth/login
+http://91.200.84.37:8081/v1/auth/login
 ```
 
 <img width="479" height="461" alt="image" src="https://github.com/user-attachments/assets/83e8c3e2-1445-45fe-92b3-fffeecab7b4f" />
@@ -150,7 +150,7 @@ http://185.250.46.179:8081/v1/auth/login
 ### Проверка токена напрямую
 
 ```
-http://185.250.46.179:8081/v1/auth/verify
+http://91.200.84.37:8081/v1/auth/verify
 ```
 
 <img width="597" height="458" alt="image" src="https://github.com/user-attachments/assets/c8e5b8b0-bb26-4d80-88e4-7f66c3b2fc46" />
@@ -159,7 +159,7 @@ http://185.250.46.179:8081/v1/auth/verify
 ### Создать задачу через Tasks (с проверкой Auth)
 
 ```
-http://185.250.46.179:8082/v1/tasks
+http://91.200.84.37:8082/v1/tasks
 ```
 
 <img width="568" height="517" alt="image" src="https://github.com/user-attachments/assets/3ccb74b7-e6a1-411a-b082-37f253d1ee94" />
@@ -168,7 +168,7 @@ http://185.250.46.179:8082/v1/tasks
 ### Попробовать без токена (должно быть 401)
 
 ```
-http://185.250.46.179:8082/v1/tasks
+http://91.200.84.37:8082/v1/tasks
 ```
 
 <img width="536" height="455" alt="image" src="https://github.com/user-attachments/assets/cd5f3661-b8ba-4327-b432-9c8095908631" />
